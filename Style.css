@@ -1,0 +1,215 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(254, 254, 236) !important;
+}
+
+.main-header {
+  width: 100%;
+  height: 60px;
+  background-color: teal;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: azure;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 0 15%;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.nav {
+  width: 50%;
+  padding: 0 15%;
+  padding-left: 0px;
+  text-align: center;
+  display: flex;
+}
+
+.nav-list {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.log {
+  color: azure;
+  text-decoration: none;
+}
+.log:hover {
+  color: teal;
+}
+.list-items:hover {
+  cursor: pointer;
+  background-color: azure;
+  color: teal;
+  padding: 5px 8px;
+  border-radius: 3px;
+  font-size: 21px;
+}
+
+.banner {
+  margin: 1px 15%;
+  height: 300px;
+  padding: 5% 5% 20%;
+  border-radius: 8px;
+  background-color: #54ada3;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.banner h1 {
+  font-size: 45px;
+}
+
+.btn {
+  border: none;
+  margin: 15px;
+  margin-left: 0px;
+  padding: 12px 15px;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  border: 1px black solid;
+  color: #54ada3;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  margin: 50px 15%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.card1,
+.card2 {
+  height: 350px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.525);
+  justify-content: space-between;
+}
+
+.card1 {
+  padding: 20px 18px;
+  border: 1px solid gray !important;
+  margin-right: 25px;
+}
+
+.card1 h1 {
+  font-weight: 600;
+  padding-bottom: 18px;
+}
+.desc {
+  font-weight: 400;
+  color: rgba(78, 74, 74, 0.852);
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.card1 img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 30px;
+}
+.card1 a {
+  text-decoration: none;
+  color: teal;
+  font-weight: 600;
+  font-size: 20px;
+}
+.card2 {
+  margin: 0px 10px;
+  border: 1px solid gray !important;
+  margin-left: 25px;
+}
+
+.card2 img {
+  width: 100%;
+  height: 160px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.card2 .icon {
+  font-size: 20px;
+  color: rgba(78, 74, 74, 0.852);
+  padding: 5px 10px;
+  padding-left: 18px;
+}
+.i-txt {
+  color: rgba(78, 74, 74, 0.852);
+  font-size: 15px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card2 p {
+  padding-left: 20px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.card2 .desc {
+  font-size: 15px;
+}
+
+.card-btn {
+  margin-top: 20px;
+  margin-left: 18px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 1px solid gray !important;
+}
+
+.login {
+  border: 1px solid rgb(216, 214, 186);
+  margin: 10% 35%;
+  padding: 20px 100px;
+}
+.login h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.login p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.mail {
+  margin-top: 20px;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.log-btn {
+  margin: 20px 20%;
+  padding: 10px 25px;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+}
+
+.log-btn:hover {
+  background-color: white;
+  color: black;
+}
